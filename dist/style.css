@@ -1,0 +1,35 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.circle {
+  padding: 1rem;
+  border-radius: 100%;
+  position: relative;
+  transform: translate(0, -50%);
+}
+
+.circle:hover {
+  box-shadow: 0 0 40px rgb(74 222 128);
+  cursor: pointer;
+}
+
+.card {
+  min-height: 250px;
+  max-width: 325px;
+}
+
+@media (min-width: 768px) {
+  .divider-img {
+    content: url(/images/pattern-divider-desktop.svg);
+  }
+
+  .card {
+    max-width: 400px;
+  }
+}
